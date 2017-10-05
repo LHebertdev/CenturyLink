@@ -36,7 +36,7 @@ $("#button").click(function()(function ($) {
             });
             // if no items were returned then add a message to that effect
             if (items.length < 1) {
-                items.push('<li>No results for this ZIP code, try again!</li>');
+                items.push('<li>No results for this user, try again!</li>');
             }
  
             // remove spinner
